@@ -16,9 +16,8 @@
 		5F85861A186B6CBB00AD762E /* MPDatumClassifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F858619186B6CBB00AD762E /* MPDatumClassifier.m */; };
 		5F858621186B6CBB00AD762E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F858620186B6CBB00AD762E /* XCTest.framework */; };
 		5F858622186B6CBB00AD762E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F85860B186B6CBB00AD762E /* Cocoa.framework */; };
-		5F858625186B6CBB00AD762E /* MPRandomForest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F858608186B6CBB00AD762E /* MPRandomForest.framework */; };
+		5F858625186B6CBB00AD762E /* Swot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F858608186B6CBB00AD762E /* Swot.framework */; };
 		5F85862B186B6CBB00AD762E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F858629186B6CBB00AD762E /* InfoPlist.strings */; };
-		5F858652186B6E0800AD762E /* ALGLIB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F85864F186B6DC600AD762E /* ALGLIB.framework */; };
 		5F858655186B6EFC00AD762E /* MPDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F858653186B6EFC00AD762E /* MPDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F858659186B706600AD762E /* MPDataSetTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F858657186B706600AD762E /* MPDataSetTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F8EDD251883DF8E0026CA9C /* MPAbstractTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8EDD231883DF8E0026CA9C /* MPAbstractTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -52,64 +51,49 @@
 			remoteGlobalIDString = 5F858607186B6CBB00AD762E;
 			remoteInfo = MPRandomForest;
 		};
-		5F85864E186B6DC600AD762E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5F858649186B6DC500AD762E /* ALGLIB.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5FF3F1DB186A276700466512;
-			remoteInfo = ALGLIB;
-		};
-		5F858650186B6DC600AD762E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5F858649186B6DC500AD762E /* ALGLIB.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5FF3F1F2186A276700466512;
-			remoteInfo = ALGLIBTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5F0C2839189D0AFC00B91D7E /* NSString+CamelCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CamelCase.h"; path = "MPRandomForest/NSString+CamelCase.h"; sourceTree = "<group>"; };
-		5F0C283A189D0AFC00B91D7E /* NSString+CamelCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CamelCase.m"; path = "MPRandomForest/NSString+CamelCase.m"; sourceTree = "<group>"; };
-		5F0C283D189D45B900B91D7E /* NSArray+MaxValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MaxValue.h"; path = "MPRandomForest/NSArray+MaxValue.h"; sourceTree = "<group>"; };
-		5F0C283E189D45B900B91D7E /* NSArray+MaxValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MaxValue.m"; path = "MPRandomForest/NSArray+MaxValue.m"; sourceTree = "<group>"; };
-		5F858608186B6CBB00AD762E /* MPRandomForest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPRandomForest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0C2839189D0AFC00B91D7E /* NSString+CamelCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CamelCase.h"; path = "Swot/NSString+CamelCase.h"; sourceTree = "<group>"; };
+		5F0C283A189D0AFC00B91D7E /* NSString+CamelCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CamelCase.m"; path = "Swot/NSString+CamelCase.m"; sourceTree = "<group>"; };
+		5F0C283D189D45B900B91D7E /* NSArray+MaxValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MaxValue.h"; path = "Swot/NSArray+MaxValue.h"; sourceTree = "<group>"; };
+		5F0C283E189D45B900B91D7E /* NSArray+MaxValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MaxValue.m"; path = "Swot/NSArray+MaxValue.m"; sourceTree = "<group>"; };
+		5F858608186B6CBB00AD762E /* Swot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F85860B186B6CBB00AD762E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5F85860E186B6CBB00AD762E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5F85860F186B6CBB00AD762E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5F858610186B6CBB00AD762E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		5F858613186B6CBB00AD762E /* MPRandomForest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPRandomForest-Info.plist"; sourceTree = "<group>"; };
+		5F858613186B6CBB00AD762E /* Swot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "Swot-Info.plist"; path = "Swot/Swot-Info.plist"; sourceTree = "<group>"; };
 		5F858615186B6CBB00AD762E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5F858617186B6CBB00AD762E /* MPRandomForest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPRandomForest-Prefix.pch"; sourceTree = "<group>"; };
-		5F858618186B6CBB00AD762E /* MPDatumClassifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPDatumClassifier.h; sourceTree = "<group>"; };
-		5F858619186B6CBB00AD762E /* MPDatumClassifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPDatumClassifier.m; sourceTree = "<group>"; };
-		5F85861F186B6CBB00AD762E /* MPRandomForestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPRandomForestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F858617186B6CBB00AD762E /* Swot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Swot-Prefix.pch"; path = "Swot/Swot-Prefix.pch"; sourceTree = "<group>"; };
+		5F858618186B6CBB00AD762E /* MPDatumClassifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPDatumClassifier.h; path = Swot/MPDatumClassifier.h; sourceTree = "<group>"; };
+		5F858619186B6CBB00AD762E /* MPDatumClassifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MPDatumClassifier.m; path = Swot/MPDatumClassifier.m; sourceTree = "<group>"; };
+		5F85861F186B6CBB00AD762E /* SwotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F858620186B6CBB00AD762E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5F858628186B6CBB00AD762E /* MPRandomForestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPRandomForestTests-Info.plist"; sourceTree = "<group>"; };
 		5F85862A186B6CBB00AD762E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5F858649186B6DC500AD762E /* ALGLIB.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ALGLIB.xcodeproj; path = ../../alglib/ALGLIB/ALGLIB.xcodeproj; sourceTree = "<group>"; };
-		5F858653186B6EFC00AD762E /* MPDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPDataSet.h; path = MPRandomForest/MPDataSet.h; sourceTree = "<group>"; };
-		5F858657186B706600AD762E /* MPDataSetTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPDataSetTransformer.h; path = MPRandomForest/MPDataSetTransformer.h; sourceTree = "<group>"; };
-		5F8EDD231883DF8E0026CA9C /* MPAbstractTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPAbstractTransformer.h; path = MPRandomForest/MPAbstractTransformer.h; sourceTree = "<group>"; };
-		5F8EDD241883DF8E0026CA9C /* MPAbstractTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPAbstractTransformer.m; path = MPRandomForest/MPAbstractTransformer.m; sourceTree = "<group>"; };
-		5F9A6E27189480910006CC4D /* MPDimensionMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPDimensionMapper.h; path = MPRandomForest/MPDimensionMapper.h; sourceTree = "<group>"; };
-		5F9A6E29189488450006CC4D /* MPNamedColumnDimensionMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPNamedColumnDimensionMapper.h; path = MPRandomForest/MPNamedColumnDimensionMapper.h; sourceTree = "<group>"; };
-		5F9A6E2A189488450006CC4D /* MPNamedColumnDimensionMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPNamedColumnDimensionMapper.m; path = MPRandomForest/MPNamedColumnDimensionMapper.m; sourceTree = "<group>"; };
-		5F9CFDDB1886905A0052431C /* MPALGLIBDecisionForestClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPALGLIBDecisionForestClassifier.h; sourceTree = "<group>"; };
-		5F9CFDDC1886905A0052431C /* MPALGLIBDecisionForestClassifier.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MPALGLIBDecisionForestClassifier.mm; sourceTree = "<group>"; };
-		5F9CFDDF188693D90052431C /* MPTrainingInstructions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPTrainingInstructions.h; sourceTree = "<group>"; };
-		5FCC4156188C821E00FF08BB /* MPZScoreTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPZScoreTransformer.h; path = MPRandomForest/MPZScoreTransformer.h; sourceTree = "<group>"; };
-		5FCC4157188C821E00FF08BB /* MPZScoreTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPZScoreTransformer.m; path = MPRandomForest/MPZScoreTransformer.m; sourceTree = "<group>"; };
-		5FCC415A188C827C00FF08BB /* MPIdentityTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPIdentityTransformer.h; path = MPRandomForest/MPIdentityTransformer.h; sourceTree = "<group>"; };
-		5FCC415B188C827C00FF08BB /* MPIdentityTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPIdentityTransformer.m; path = MPRandomForest/MPIdentityTransformer.m; sourceTree = "<group>"; };
-		5FCC415E188C846D00FF08BB /* MPPermutationTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPPermutationTransformer.h; path = MPRandomForest/MPPermutationTransformer.h; sourceTree = "<group>"; };
-		5FCC415F188C846D00FF08BB /* MPPermutationTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPPermutationTransformer.m; path = MPRandomForest/MPPermutationTransformer.m; sourceTree = "<group>"; };
-		5FF318CB188293F300C8672D /* MPDataTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPDataTable.h; path = MPRandomForest/MPDataTable.h; sourceTree = "<group>"; };
-		5FF318CC188293F300C8672D /* MPDataTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPDataTable.m; path = MPRandomForest/MPDataTable.m; sourceTree = "<group>"; };
-		5FF318CF1882B94100C8672D /* NSNumber+NumericalType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+NumericalType.h"; path = "MPRandomForest/NSNumber+NumericalType.h"; sourceTree = "<group>"; };
-		5FF318D01882B94100C8672D /* NSNumber+NumericalType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+NumericalType.m"; path = "MPRandomForest/NSNumber+NumericalType.m"; sourceTree = "<group>"; };
-		5FF318D81882C0EE00C8672D /* MPNumericalTypeCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNumericalTypeCategoryTests.m; sourceTree = "<group>"; };
-		5FF318DC1882C16200C8672D /* MPDataTableTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPDataTableTests.m; sourceTree = "<group>"; };
+		5F858653186B6EFC00AD762E /* MPDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPDataSet.h; path = Swot/MPDataSet.h; sourceTree = "<group>"; };
+		5F858657186B706600AD762E /* MPDataSetTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPDataSetTransformer.h; path = Swot/MPDataSetTransformer.h; sourceTree = "<group>"; };
+		5F8EDD231883DF8E0026CA9C /* MPAbstractTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPAbstractTransformer.h; path = Swot/MPAbstractTransformer.h; sourceTree = "<group>"; };
+		5F8EDD241883DF8E0026CA9C /* MPAbstractTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPAbstractTransformer.m; path = Swot/MPAbstractTransformer.m; sourceTree = "<group>"; };
+		5F9A6E27189480910006CC4D /* MPDimensionMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPDimensionMapper.h; path = Swot/MPDimensionMapper.h; sourceTree = "<group>"; };
+		5F9A6E29189488450006CC4D /* MPNamedColumnDimensionMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPNamedColumnDimensionMapper.h; path = Swot/MPNamedColumnDimensionMapper.h; sourceTree = "<group>"; };
+		5F9A6E2A189488450006CC4D /* MPNamedColumnDimensionMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPNamedColumnDimensionMapper.m; path = Swot/MPNamedColumnDimensionMapper.m; sourceTree = "<group>"; };
+		5F9CFDDB1886905A0052431C /* MPALGLIBDecisionForestClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPALGLIBDecisionForestClassifier.h; path = Swot/MPALGLIBDecisionForestClassifier.h; sourceTree = "<group>"; };
+		5F9CFDDC1886905A0052431C /* MPALGLIBDecisionForestClassifier.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MPALGLIBDecisionForestClassifier.mm; path = Swot/MPALGLIBDecisionForestClassifier.mm; sourceTree = "<group>"; };
+		5F9CFDDF188693D90052431C /* MPTrainingInstructions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPTrainingInstructions.h; path = Swot/MPTrainingInstructions.h; sourceTree = "<group>"; };
+		5FCC4156188C821E00FF08BB /* MPZScoreTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPZScoreTransformer.h; path = Swot/MPZScoreTransformer.h; sourceTree = "<group>"; };
+		5FCC4157188C821E00FF08BB /* MPZScoreTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPZScoreTransformer.m; path = Swot/MPZScoreTransformer.m; sourceTree = "<group>"; };
+		5FCC415A188C827C00FF08BB /* MPIdentityTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPIdentityTransformer.h; path = Swot/MPIdentityTransformer.h; sourceTree = "<group>"; };
+		5FCC415B188C827C00FF08BB /* MPIdentityTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPIdentityTransformer.m; path = Swot/MPIdentityTransformer.m; sourceTree = "<group>"; };
+		5FCC415E188C846D00FF08BB /* MPPermutationTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPPermutationTransformer.h; path = Swot/MPPermutationTransformer.h; sourceTree = "<group>"; };
+		5FCC415F188C846D00FF08BB /* MPPermutationTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPPermutationTransformer.m; path = Swot/MPPermutationTransformer.m; sourceTree = "<group>"; };
+		5FF318CB188293F300C8672D /* MPDataTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPDataTable.h; path = Swot/MPDataTable.h; sourceTree = "<group>"; };
+		5FF318CC188293F300C8672D /* MPDataTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPDataTable.m; path = Swot/MPDataTable.m; sourceTree = "<group>"; };
+		5FF318CF1882B94100C8672D /* NSNumber+NumericalType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+NumericalType.h"; path = "Swot/NSNumber+NumericalType.h"; sourceTree = "<group>"; };
+		5FF318D01882B94100C8672D /* NSNumber+NumericalType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+NumericalType.m"; path = "Swot/NSNumber+NumericalType.m"; sourceTree = "<group>"; };
+		5FF318D81882C0EE00C8672D /* MPNumericalTypeCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPNumericalTypeCategoryTests.m; path = SwotTests/MPNumericalTypeCategoryTests.m; sourceTree = "<group>"; };
+		5FF318DC1882C16200C8672D /* MPDataTableTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPDataTableTests.m; path = SwotTests/MPDataTableTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +101,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F858652186B6E0800AD762E /* ALGLIB.framework in Frameworks */,
 				5F85860C186B6CBB00AD762E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,7 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F858622186B6CBB00AD762E /* Cocoa.framework in Frameworks */,
-				5F858625186B6CBB00AD762E /* MPRandomForest.framework in Frameworks */,
+				5F858625186B6CBB00AD762E /* Swot.framework in Frameworks */,
 				5F858621186B6CBB00AD762E /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,8 +147,8 @@
 		5F858609186B6CBB00AD762E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F858608186B6CBB00AD762E /* MPRandomForest.framework */,
-				5F85861F186B6CBB00AD762E /* MPRandomForestTests.xctest */,
+				5F858608186B6CBB00AD762E /* Swot.framework */,
+				5F85861F186B6CBB00AD762E /* SwotTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,7 +156,6 @@
 		5F85860A186B6CBB00AD762E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5F858649186B6DC500AD762E /* ALGLIB.xcodeproj */,
 				5F85860B186B6CBB00AD762E /* Cocoa.framework */,
 				5F858620186B6CBB00AD762E /* XCTest.framework */,
 				5F85860D186B6CBB00AD762E /* Other Frameworks */,
@@ -208,9 +190,9 @@
 		5F858612186B6CBB00AD762E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5F858613186B6CBB00AD762E /* MPRandomForest-Info.plist */,
+				5F858613186B6CBB00AD762E /* Swot-Info.plist */,
 				5F858614186B6CBB00AD762E /* InfoPlist.strings */,
-				5F858617186B6CBB00AD762E /* MPRandomForest-Prefix.pch */,
+				5F858617186B6CBB00AD762E /* Swot-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -232,15 +214,6 @@
 				5F858629186B6CBB00AD762E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5F85864A186B6DC500AD762E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5F85864F186B6DC600AD762E /* ALGLIB.framework */,
-				5F858651186B6DC600AD762E /* ALGLIBTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		5F8EDD221883DF6D0026CA9C /* Value Transformers */ = {
@@ -316,9 +289,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5F858607186B6CBB00AD762E /* MPRandomForest */ = {
+		5F858607186B6CBB00AD762E /* Swot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F858630186B6CBB00AD762E /* Build configuration list for PBXNativeTarget "MPRandomForest" */;
+			buildConfigurationList = 5F858630186B6CBB00AD762E /* Build configuration list for PBXNativeTarget "Swot" */;
 			buildPhases = (
 				5F858603186B6CBB00AD762E /* Sources */,
 				5F858604186B6CBB00AD762E /* Frameworks */,
@@ -329,14 +302,14 @@
 			);
 			dependencies = (
 			);
-			name = MPRandomForest;
+			name = Swot;
 			productName = MPRandomForest;
-			productReference = 5F858608186B6CBB00AD762E /* MPRandomForest.framework */;
+			productReference = 5F858608186B6CBB00AD762E /* Swot.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5F85861E186B6CBB00AD762E /* MPRandomForestTests */ = {
+		5F85861E186B6CBB00AD762E /* SwotTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F858633186B6CBB00AD762E /* Build configuration list for PBXNativeTarget "MPRandomForestTests" */;
+			buildConfigurationList = 5F858633186B6CBB00AD762E /* Build configuration list for PBXNativeTarget "SwotTests" */;
 			buildPhases = (
 				5F85861B186B6CBB00AD762E /* Sources */,
 				5F85861C186B6CBB00AD762E /* Frameworks */,
@@ -347,9 +320,9 @@
 			dependencies = (
 				5F858624186B6CBB00AD762E /* PBXTargetDependency */,
 			);
-			name = MPRandomForestTests;
+			name = SwotTests;
 			productName = MPRandomForestTests;
-			productReference = 5F85861F186B6CBB00AD762E /* MPRandomForestTests.xctest */;
+			productReference = 5F85861F186B6CBB00AD762E /* SwotTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -366,7 +339,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5F858602186B6CBB00AD762E /* Build configuration list for PBXProject "MPRandomForest" */;
+			buildConfigurationList = 5F858602186B6CBB00AD762E /* Build configuration list for PBXProject "Swot" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -376,36 +349,13 @@
 			mainGroup = 5F8585FE186B6CBB00AD762E;
 			productRefGroup = 5F858609186B6CBB00AD762E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 5F85864A186B6DC500AD762E /* Products */;
-					ProjectRef = 5F858649186B6DC500AD762E /* ALGLIB.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				5F858607186B6CBB00AD762E /* MPRandomForest */,
-				5F85861E186B6CBB00AD762E /* MPRandomForestTests */,
+				5F858607186B6CBB00AD762E /* Swot */,
+				5F85861E186B6CBB00AD762E /* SwotTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		5F85864F186B6DC600AD762E /* ALGLIB.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ALGLIB.framework;
-			remoteRef = 5F85864E186B6DC600AD762E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5F858651186B6DC600AD762E /* ALGLIBTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ALGLIBTests.xctest;
-			remoteRef = 5F858650186B6DC600AD762E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5F858606186B6CBB00AD762E /* Resources */ = {
@@ -459,7 +409,7 @@
 /* Begin PBXTargetDependency section */
 		5F858624186B6CBB00AD762E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F858607186B6CBB00AD762E /* MPRandomForest */;
+			target = 5F858607186B6CBB00AD762E /* Swot */;
 			targetProxy = 5F858623186B6CBB00AD762E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -562,8 +512,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MPRandomForest/MPRandomForest-Prefix.pch";
-				INFOPLIST_FILE = "MPRandomForest/MPRandomForest-Info.plist";
+				GCC_PREFIX_HEADER = "Swot/Swot-Prefix.pch";
+				INFOPLIST_FILE = "Swot/Swot-Info.plist";
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
@@ -578,8 +528,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MPRandomForest/MPRandomForest-Prefix.pch";
-				INFOPLIST_FILE = "MPRandomForest/MPRandomForest-Info.plist";
+				GCC_PREFIX_HEADER = "Swot/Swot-Prefix.pch";
+				INFOPLIST_FILE = "Swot/Swot-Info.plist";
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
@@ -629,7 +579,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F858602186B6CBB00AD762E /* Build configuration list for PBXProject "MPRandomForest" */ = {
+		5F858602186B6CBB00AD762E /* Build configuration list for PBXProject "Swot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F85862E186B6CBB00AD762E /* Debug */,
@@ -638,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F858630186B6CBB00AD762E /* Build configuration list for PBXNativeTarget "MPRandomForest" */ = {
+		5F858630186B6CBB00AD762E /* Build configuration list for PBXNativeTarget "Swot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F858631186B6CBB00AD762E /* Debug */,
@@ -647,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F858633186B6CBB00AD762E /* Build configuration list for PBXNativeTarget "MPRandomForestTests" */ = {
+		5F858633186B6CBB00AD762E /* Build configuration list for PBXNativeTarget "SwotTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F858634186B6CBB00AD762E /* Debug */,
