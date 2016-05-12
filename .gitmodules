@@ -1,0 +1,3 @@
+[submodule "Carthage/Checkouts/Aljabr"]
+	path = Carthage/Checkouts/Aljabr
+	url = ssh://git@github.com/mz2/Aljabr.git
