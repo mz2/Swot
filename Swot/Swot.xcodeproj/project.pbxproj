@@ -66,8 +66,8 @@
 		5F858613186B6CBB00AD762E /* Swot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "Swot-Info.plist"; path = "Swot/Swot-Info.plist"; sourceTree = "<group>"; };
 		5F858615186B6CBB00AD762E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F858617186B6CBB00AD762E /* Swot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Swot-Prefix.pch"; path = "Swot/Swot-Prefix.pch"; sourceTree = "<group>"; };
-		5F858618186B6CBB00AD762E /* MPDatumClassifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPDatumClassifier.h; path = Swot/MPDatumClassifier.h; sourceTree = "<group>"; };
-		5F858619186B6CBB00AD762E /* MPDatumClassifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MPDatumClassifier.m; path = Swot/MPDatumClassifier.m; sourceTree = "<group>"; };
+		5F858618186B6CBB00AD762E /* MPDatumClassifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPDatumClassifier.h; sourceTree = "<group>"; };
+		5F858619186B6CBB00AD762E /* MPDatumClassifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPDatumClassifier.m; sourceTree = "<group>"; };
 		5F85861F186B6CBB00AD762E /* SwotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F858620186B6CBB00AD762E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5F858628186B6CBB00AD762E /* MPRandomForestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPRandomForestTests-Info.plist"; sourceTree = "<group>"; };
@@ -79,9 +79,9 @@
 		5F9A6E27189480910006CC4D /* MPDimensionMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPDimensionMapper.h; path = Swot/MPDimensionMapper.h; sourceTree = "<group>"; };
 		5F9A6E29189488450006CC4D /* MPNamedColumnDimensionMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPNamedColumnDimensionMapper.h; path = Swot/MPNamedColumnDimensionMapper.h; sourceTree = "<group>"; };
 		5F9A6E2A189488450006CC4D /* MPNamedColumnDimensionMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPNamedColumnDimensionMapper.m; path = Swot/MPNamedColumnDimensionMapper.m; sourceTree = "<group>"; };
-		5F9CFDDB1886905A0052431C /* MPALGLIBDecisionForestClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPALGLIBDecisionForestClassifier.h; path = Swot/MPALGLIBDecisionForestClassifier.h; sourceTree = "<group>"; };
-		5F9CFDDC1886905A0052431C /* MPALGLIBDecisionForestClassifier.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MPALGLIBDecisionForestClassifier.mm; path = Swot/MPALGLIBDecisionForestClassifier.mm; sourceTree = "<group>"; };
-		5F9CFDDF188693D90052431C /* MPTrainingInstructions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPTrainingInstructions.h; path = Swot/MPTrainingInstructions.h; sourceTree = "<group>"; };
+		5F9CFDDB1886905A0052431C /* MPALGLIBDecisionForestClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPALGLIBDecisionForestClassifier.h; sourceTree = "<group>"; };
+		5F9CFDDC1886905A0052431C /* MPALGLIBDecisionForestClassifier.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MPALGLIBDecisionForestClassifier.mm; sourceTree = "<group>"; };
+		5F9CFDDF188693D90052431C /* MPTrainingInstructions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPTrainingInstructions.h; sourceTree = "<group>"; };
 		5FCC4156188C821E00FF08BB /* MPZScoreTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPZScoreTransformer.h; path = Swot/MPZScoreTransformer.h; sourceTree = "<group>"; };
 		5FCC4157188C821E00FF08BB /* MPZScoreTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPZScoreTransformer.m; path = Swot/MPZScoreTransformer.m; sourceTree = "<group>"; };
 		5FCC415A188C827C00FF08BB /* MPIdentityTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPIdentityTransformer.h; path = Swot/MPIdentityTransformer.h; sourceTree = "<group>"; };
@@ -184,7 +184,7 @@
 				5F858612186B6CBB00AD762E /* Supporting Files */,
 			);
 			name = Classifiers;
-			path = MPRandomForest;
+			path = Swot;
 			sourceTree = "<group>";
 		};
 		5F858612186B6CBB00AD762E /* Supporting Files */ = {

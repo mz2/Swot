@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Matias Piipari. All rights reserved.
 //
 
-#import <MPRandomForest/MPDatumClassifier.h>
+#import <Swot/MPDatumClassifier.h>
 
 extern NSString * const MPALGLIBDecisionForestClassifierErrorDomain;
 
