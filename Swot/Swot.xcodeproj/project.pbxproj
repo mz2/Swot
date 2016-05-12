@@ -11,11 +11,11 @@
 		5F0C283C189D0AFC00B91D7E /* NSString+CamelCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0C283A189D0AFC00B91D7E /* NSString+CamelCase.m */; };
 		5F0C283F189D45B900B91D7E /* NSArray+MaxValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0C283D189D45B900B91D7E /* NSArray+MaxValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F0C2840189D45B900B91D7E /* NSArray+MaxValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0C283E189D45B900B91D7E /* NSArray+MaxValue.m */; };
-		5F85860C186B6CBB00AD762E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F85860B186B6CBB00AD762E /* Cocoa.framework */; };
+		5F77A9AA1CE4DCBD00DB541E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F85860E186B6CBB00AD762E /* Foundation.framework */; };
+		5F77A9AC1CE4DCD700DB541E /* ALGLIB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F77A9AB1CE4DCD700DB541E /* ALGLIB.framework */; };
 		5F858616186B6CBB00AD762E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F858614186B6CBB00AD762E /* InfoPlist.strings */; };
 		5F85861A186B6CBB00AD762E /* MPDatumClassifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F858619186B6CBB00AD762E /* MPDatumClassifier.m */; };
 		5F858621186B6CBB00AD762E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F858620186B6CBB00AD762E /* XCTest.framework */; };
-		5F858622186B6CBB00AD762E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F85860B186B6CBB00AD762E /* Cocoa.framework */; };
 		5F858625186B6CBB00AD762E /* Swot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F858608186B6CBB00AD762E /* Swot.framework */; };
 		5F85862B186B6CBB00AD762E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F858629186B6CBB00AD762E /* InfoPlist.strings */; };
 		5F858655186B6EFC00AD762E /* MPDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F858653186B6EFC00AD762E /* MPDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,8 +58,8 @@
 		5F0C283A189D0AFC00B91D7E /* NSString+CamelCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CamelCase.m"; path = "Swot/NSString+CamelCase.m"; sourceTree = "<group>"; };
 		5F0C283D189D45B900B91D7E /* NSArray+MaxValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MaxValue.h"; path = "Swot/NSArray+MaxValue.h"; sourceTree = "<group>"; };
 		5F0C283E189D45B900B91D7E /* NSArray+MaxValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MaxValue.m"; path = "Swot/NSArray+MaxValue.m"; sourceTree = "<group>"; };
+		5F77A9AB1CE4DCD700DB541E /* ALGLIB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALGLIB.framework; path = ../Carthage/Build/Mac/ALGLIB.framework; sourceTree = "<group>"; };
 		5F858608186B6CBB00AD762E /* Swot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F85860B186B6CBB00AD762E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5F85860E186B6CBB00AD762E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5F85860F186B6CBB00AD762E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5F858610186B6CBB00AD762E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -101,7 +101,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F85860C186B6CBB00AD762E /* Cocoa.framework in Frameworks */,
+				5F77A9AA1CE4DCBD00DB541E /* Foundation.framework in Frameworks */,
+				5F77A9AC1CE4DCD700DB541E /* ALGLIB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +110,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F858622186B6CBB00AD762E /* Cocoa.framework in Frameworks */,
 				5F858625186B6CBB00AD762E /* Swot.framework in Frameworks */,
 				5F858621186B6CBB00AD762E /* XCTest.framework in Frameworks */,
 			);
@@ -156,7 +156,7 @@
 		5F85860A186B6CBB00AD762E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5F85860B186B6CBB00AD762E /* Cocoa.framework */,
+				5F77A9AB1CE4DCD700DB541E /* ALGLIB.framework */,
 				5F858620186B6CBB00AD762E /* XCTest.framework */,
 				5F85860D186B6CBB00AD762E /* Other Frameworks */,
 			);
@@ -331,7 +331,7 @@
 		5F8585FF186B6CBB00AD762E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Manuscripts.app Limited";
 				TargetAttributes = {
 					5F85861E186B6CBB00AD762E = {
@@ -450,6 +450,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -510,11 +511,13 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = $SRCROOT/../Carthage/Build/Mac;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Swot/Swot-Prefix.pch";
 				INFOPLIST_FILE = "Swot/Swot-Info.plist";
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piipari.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -526,11 +529,13 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = $SRCROOT/../Carthage/Build/Mac;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Swot/Swot-Prefix.pch";
 				INFOPLIST_FILE = "Swot/Swot-Info.plist";
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piipari.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};

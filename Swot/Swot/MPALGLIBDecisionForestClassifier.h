@@ -26,10 +26,6 @@ static const double MPALGLIBDecisionForestClassifierDefaultClassificationToleran
                        trainingData:(id<MPTrainableDataSet>)data
                           treeCount:(NSUInteger)treeCount;
 
-@property (readonly) id<MPDataSetTransformer> transformer;
-
-@property (readonly) id<MPTrainingInstructions> trainingInstructions;
-
 @property (readwrite) NSUInteger treeCount;
 
 - (NSArray *)posteriorProbabilitiesForClassifyingDatum:(id<MPDatum>)datum;
